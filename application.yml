@@ -9,5 +9,7 @@ eureka:
 
 spring:
   cloud:
-    compatibility-verifier:
-      enabled=false:
+    config:
+      enabled: false
+    import-check:
+      enabled: false
